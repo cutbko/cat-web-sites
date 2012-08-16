@@ -1,0 +1,37 @@
+﻿body{
+	font-family:sans-serif;	
+}
+
+#header-wrapper{
+	background-image:-webkit-linear-gradient(top,#008DAB, #007294);
+	letter-spacing:-1px;
+	
+}
+
+header h1{
+	color:#FFFFFF;
+	float:left;
+}
+
+.less-hd-wr{
+	width:1200px;
+	margin: 0 auto;
+}
+
+.less-less-hd-wr{
+	float:left;
+	clear:left;
+	margin:1% 0 1% 2%;
+	width:100%;
+	margin-left:0;
+}
+
+header{
+	background-image: -webkit-linear-gradient(top, #008EAD, #007B9D);
+	position:relative;
+	margin:2.5% 0 2.5% 0;
+	padding:0 40px 0 40px; 
+	border-radius:10px;
+	border:solid 1px #00118B;
+	background-color:#007B9D;	
+}	
