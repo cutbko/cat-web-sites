@@ -143,6 +143,32 @@ ul li.firstItem{
 	clear:both;
 }
 
+.bottom-content{
+	position:relative;
+	width:910px;
+	padding:50px 35px 20px 35px;
+}
+
+.bottom-content h3{
+	font-size: 1.5em;
+	background: none;
+	box-shadow: none;
+	padding: 0;
+	position:relative;
+	left:0;		
+}
+
+.main-bt-content{
+	width:515px;
+	float:left;
+}
+
+.bt-aside{
+	width:300px;
+}
+
+
+
 aside{
 	width: 300px;
 	padding: 0 35px 0 35px;
@@ -160,4 +186,14 @@ aside h3{
 
 aside a{
 	color:white;
+}
+
+footer{
+	padding: 0 0 95px 0;
+	text-align: center;
+	color: #CCD1CA;
+}
+
+footer a{
+	color: #CCD1CA;
 }
