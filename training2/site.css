@@ -1,4 +1,18 @@
-﻿body{
+﻿/*#region COLORS */
+
+/*
+	COLORS
+	
+	#969E94
+	#D3D3D3
+	#717B6F
+	#525850
+	#282C27	
+*/
+
+/*#endregion*/
+
+body{
 	background-color:#969E94;
 	font-family:Ubuntu, sans-serif;
 	font-size: 12.5pt;
@@ -15,7 +29,8 @@
 }
 
 .box{
-	margin: 0 0 45px 0;
+	margin:0;
+	text-align:center;
 }
 
 header{
@@ -41,7 +56,6 @@ header h1{
 	padding:0px;
 }
 
-
 nav a{
 	display: inline;
 	padding: 0 10px 0 10px;
@@ -60,7 +74,6 @@ nav{
 	background: rgba(0, 0, 0, 0.05);
 	box-shadow: inset 1px 1px 3px 0px rgba(0, 0, 0, 0.1), 1px 1px 3px 0px rgba(255, 255, 255, 0.1);;
 }
-
 
 #main{
 	margin: 25px 0 0 0;
@@ -115,7 +128,6 @@ h2, h3{
 	float:right;
 	overflow:hidden;
 }
-
 .col2 img{
 	width:240px;
 	height:140px;
@@ -124,9 +136,14 @@ h2, h3{
 	
 }
 
+aside a{
+	color:white;
+}
+
 ul{
 	list-style:none;
-	margin-bottom: 1.5em;	
+	margin-bottom: 1.5em;
+	text-align:center;	
 }
 
 ul li{
@@ -134,9 +151,17 @@ ul li{
 	border-top: dotted 1px #D6D6D6;
 }
 
-ul li.firstItem{
-	border-top:0;
-	padding-top:0;
+ul li:nth-child(2n){
+	background-color:#D3D3D3;
+}
+
+ul li:nth-child(2n-1){
+	background-color:#717B6F;
+}
+
+ul li:hover{
+	background-color:#400040;
+	color:#FF66FF;
 }
 
 .clearfix{
@@ -167,8 +192,6 @@ ul li.firstItem{
 	width:300px;
 }
 
-
-
 aside{
 	width: 300px;
 	padding: 0 35px 0 35px;
@@ -181,11 +204,6 @@ aside h3{
 	box-shadow: inset 1px 1px 3px 0px rgba(0, 0, 0, 0.1), 1px 1px 3px 0px rgba(255, 255, 255, 0.1);
 	padding: 13px 15px 10px 15px;
 	position:relative;
-	left:-15px;
-}
-
-aside a{
-	color:white;
 }
 
 footer{
@@ -196,4 +214,9 @@ footer{
 
 footer a{
 	color: #CCD1CA;
+}
+
+::selection {
+	background-color: #FF99FF;
+	color:#FFFFFF;
 }
